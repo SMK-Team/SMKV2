@@ -43,7 +43,7 @@ if (global.db.READ) return new Promise((resolve) => setInterval(function () { (!
 if (global.db.data !== null) return
 global.db.READ = true
 await global.db.read()
-global.db.READ = true
+global.db.READ = false
 global.db.data = {
 users: {},
 chats: {},
