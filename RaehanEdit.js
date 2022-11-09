@@ -29,12 +29,10 @@ global.linkpro = 'mailto:support@whatsapp.com?subject=Deactivate%20My%20Account%
 global.email = 'bacotah@gmail.com'
 global.region = 'Kota Manado'
 
-//—————「 Set Nama Own & Bot 」—————//
+
 global.ownername = '𝗥𝗔𝗘𝗛𝗔𝗡'
 global.botname = '𝗥𝗔𝗘𝗛𝗔𝗡'
-global.footer = '𝗥𝗔𝗘𝗛𝗔𝗡' 
-//=================================================//
-// Other
+global.footer = '𝗥𝗔𝗘𝗛𝗔𝗡'
 global.owner = ['6281528628870']
 global.premium = ['6281528628870']
 global.packname = '𝐒𝐢𝐚𝐩𝐚 𝐘𝐚𝐧𝐠 𝐁𝐮𝐚𝐭'
@@ -49,9 +47,8 @@ global.mess = {
     private: 'Fitur Digunakan Hanya Untuk Private Chat!',
     bot: 'Fitur Khusus Pengguna Nomor Bot',
     endLimit: 'Limit Harian Anda Telah Habis, Limit Akan Direset Setiap Jam 12',
-    verif: 'Hai Kakak 👋 Silahkan Verifikasi Terlebih Dahulu Agar Bisa Menggunakan Bot RAEHAN',
+    
 }
-//=================================================//
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 global.doc2 = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
 global.doc3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
@@ -64,7 +61,6 @@ global.f3 = 'application/vnd.openxmlformats-officedocument.wordprocessingml.docu
 global.f4 = 'application/zip'
 global.f5 = 'application/pdf'
 global.f6 = 'application/vnd.android.package-archive'
-//=================================================//
 global.limitawal = {
     premium: "Infinity",
     free: 100
@@ -77,13 +73,11 @@ global.limitawal = {
    umpanawal: 1,
    potionawal: 1
 }
-//=================================================//
 global.thumb = fs.readFileSync("./DataBoss/image/han.jpg")
 global.visoka = fs.readFileSync("./DataBoss/video/kadal.jpg")
 global.log0 = fs.readFileSync("./DataBoss/image/bacotah.jpg")
 global.menuimg = 'https://g.top4top.io/p_2503hzq4n1.jpg'
 global.yaLL = fs.readFileSync("./DataBoss/video/thumbnail.jpg")
-//=================================================//
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
 	fs.unwatchFile(file)
